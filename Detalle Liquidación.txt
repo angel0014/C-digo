@@ -1,0 +1,22 @@
+Detalle Liquidación
+
+Data Prueba
+
+
+1. Copiar de Data Prueba:
+PJ_detalleLiquidacion_RIQ_CIQ_2025_pro.parquet
+PJ_DetalleLiquidacion_2025_pro.parquet
+
+
+2. Pegar y reemplazar en Insumos Calidad:
+\\ibm-fsbsrdel\Direccion_Siniestros_SOAT\Coordinación Datos y Control\5. Aplicativos\2. Detalle de liquidación - Calidad\1. Insumos
+
+
+3. Pegar HR Historica reciente en Insumos Calidad 
+	- Cambiar Nombre HR_2025.parquet
+
+
+4. Buenas tardes Paola, cómo estás? Quería confirmarte que ya quedo actualizado el insumo de liquidación, solamente debes descargar nuevamente los insumo del año 2025 y la hoja de ruta.
+
+
+

@@ -1,0 +1,55 @@
+
+Configuración del Entorno de Desarrollo en Windows
+
+1. Limpiar la variable PYTHONPATH para asegurar que no interfiera con el entorno virtual:
+   En la terminal de CMD, ejecutar:
+   set PYTHONPATH=
+
+2. Crea el entorno virtual: Ejecuta el siguiente comando en la terminal. 
+  Reemplaza env con el nombre que quieras darle a tu entorno virtual.
+
+  En Windows: python -m venv env
+
+  Activar el entorno virtual:
+   Navega al directorio de tu proyecto y ejecuta:
+   .\env\Scripts\activate
+
+3. Verificar la versión de pip para asegurarse de que se está utilizando la del entorno virtual:
+   which pip (en sistemas Unix) o where pip (en Windows)
+
+4. Instalar paquetes utilizando pip dentro del entorno virtual:
+   pip install nombre_del_paquete
+
+   Ejemplo:
+   pip install pyperclip
+   pip install openpyxl
+   pip install azure-storage-blob
+   pip install pandas
+   pip install pyinstaller
+
+5. Verificar instalación pyinstaller en el entorno:
+   pip show pyinstaller
+
+   pip install --ignore-installed PyInstaller
+
+6. Verificar la disponibilidad de tkinter en el entorno virtual:
+   Abre la interfaz de línea de comando de Python con 'python' y luego intenta importar tkinter con 'import tkinter'. Si no hay errores, tkinter está disponible.
+
+7. Para instalar todas las dependencias de un proyecto desde un archivo de requisitos, asegúrate de que tu entorno virtual esté activado y ejecuta:
+   pip install -r requirements.txt
+
+
+8. pyinstaller --onefile --noconsole cruceCarterasSOATV2.py
+   pyinstaller --windowed --onefile cruceCarterasSOATV2.py
+   
+  pyinstaller: Es el comando que invoca PyInstaller.
+  --onefile: Le dice a PyInstaller que empaquete tu aplicación en un solo archivo ejecutable, en lugar de distribuirlo en una carpeta con varios archivos.
+  --noconsole: Esta opción evita que se abra una ventana de consola cuando ejecutes el programa. Es ideal para aplicaciones con interfaz gráfica de usuario (GUI) que no requieren interacción a través de la consola.
+  gestorImagenesAzureApp.py: Es el nombre de tu script Python que quieres convertir en un ejecutable.
+
+  PyInstaller creará dos carpetas, dist y build, en tu directorio de trabajo. 
+  Tu ejecutable se encontrará en la carpeta dist.
+
+Nota: Asegúrate de tener activado tu entorno virtual (indicado por (env) al inicio de la línea de comandos) antes de ejecutar los comandos de instalación para que los paquetes se instalen en el entorno virtual y no globalmente.
+
+	

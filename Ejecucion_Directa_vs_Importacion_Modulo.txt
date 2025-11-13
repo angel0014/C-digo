@@ -1,0 +1,41 @@
+
+Ejecución Directa vs. Importación como Módulo en Python:
+Cuando un script de Python se ejecuta directamente, el nombre especial `__name__` se establece en '__main__'. 
+Esto permite que se ejecute código específico solo si el archivo es el punto de entrada principal del programa. 
+Si el mismo script es importado desde otro archivo, `__name__` se establece al nombre del archivo importado, y el código dentro del bloque `if __name__ == '__main__':` no se ejecutará. 
+Esto es útil para tener código de prueba o ejecución que solo debe correr cuando el archivo no es importado, sino ejecutado directamente.
+
+Ejemplo:
+
+Supongamos que tienes dos archivos: `principal.py` y `modulo.py`.
+
+modulo.py
+```python
+def funcion():
+    print("Función dentro de modulo.py")
+
+if __name__ == '__main__':
+    print("Ejecutado como script principal")
+```
+
+principal.py
+```python
+import modulo
+
+modulo.funcion()
+```
+
+Resultados de Ejecución:
+- Si ejecutas `modulo.py` directamente:
+  ```
+  Ejecutado como script principal
+  ```
+- Si ejecutas `principal.py`:
+  ```
+  Función dentro de modulo.py
+  ```
+
+En el primer caso, el mensaje se imprime porque `modulo.py` se ejecuta como el script principal. 
+En el segundo caso, solo se llama a la función y se ejecuta, sin imprimir el mensaje específico del bloque `if __name__ == '__main__':` en `modulo.py`.
+
+Esto ilustra cómo puedes controlar qué parte del código se ejecuta en diferentes contextos, proporcionando flexibilidad en el desarrollo de software en Python.

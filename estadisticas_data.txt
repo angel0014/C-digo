@@ -1,0 +1,81 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jun  9 11:53:27 2025
+
+@author: angperilla
+"""
+
+"""
+     Extracción de texto de las Notificaciones .PDF
+"""
+
+
+import pandas as pd
+from pathlib import Path
+from collections import defaultdict
+
+
+# ================
+# DATOS ENTRADA
+# ================
+
+DIRECTORIO = Path(r"C:\Users\angperilla\OneDrive - Mundial de Seguros S.A\Documentos\Proyectos\10. Notificaciones_472\data\Bloque 01.01.2023-31.05.2023\Bloque 01.01.2023-31.05.2023")
+
+# -----------------
+
+
+
+# ===========================
+# CARACTERISTICAS DE LA DATA
+# ===========================
+
+"""
+    Permite obtener las caracteristicas de la data de Notificaciones            
+"""
+
+# crear dict para contar extensiones
+cantidades = defaultdict(int)
+tamaño = defaultdict(int)
+#print(extensiones)
+
+# Iterar sobre elementos de mi Directorio
+for elemento in DIRECTORIO.iterdir():
+    #print(elemento)
+    if elemento.is_file():
+        ext = elemento.suffix or '[sin extensión]'
+        cantidades[ext]+=1
+        tamaño[ext]+=elemento.stat().st_size
+
+
+
+# Convertir bytes a gigabytes
+
+def convertir_tamaño(bytes_):
+    gb = bytes_ / (1024 ** 3)
+    mb = bytes_ / (1024 ** 2)
+    kb = bytes_ / 1024
+    return gb, mb, kb
+
+
+# Mostrar resultados
+for ext, cantidad in cantidades.items():
+    total_bytes = tamaño[ext]
+    total_gb, total_mb, total_kb = convertir_tamaño(total_bytes)
+    promedio_gb = total_gb / cantidad
+    promedio_mb = total_mb / cantidad
+    promedio_kb = total_kb / cantidad
+    
+    print("🧱" * 14)
+    print(f"Extensión: {ext}")
+    print(f"📄 Total archivos: {cantidad}")
+    print(f"💾 Tamaño total: {total_gb:.3f} GB ({total_mb:.1f} MB / {total_kb:.0f} KB)")
+    print(f"📊 Promedio por archivo: {promedio_gb:.6f} GB ({promedio_mb:.2f} MB / {promedio_kb:.0f} KB)")
+    print("🧱" * 14)
+
+# ---------------
+    
+
+
+
+
+

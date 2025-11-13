@@ -1,0 +1,29 @@
+Entrega Histórico Proveedor <<Lleida>>
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::
+ ===== PROCESO DESCARGAS NOTIFICACIONES LLEIDA =====
+::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+>>>> 21 GB JULIO A SEPTIEMBRE 2020 15/07/2025 VENCIMIENTO
+
+
+	1. Ingreso a link <<Lleida>> de acuerdo a credenciales suministradas. Descargar Información.
+	
+	2. Seleccionar .zip de la Descarga apuntando a la ruta donde esta: : C:\Users	\angperilla\Scripts\Gestor_Notificaciones\data\Lleida	\Julio_a_Septiembre_2020\ 
+
+	3. Extraer información utilizando 7 Zip en la ruta seleccionada.
+
+	4. Después de la descarga traer a la carpeta raíz: la información de PDFS y files.csv 
+
+	5. Ejecutar Script: Analisis.py. Cambiar directorios.
+
+	6. Abrir Resultado del Script Anterior y copiar Hojas Novedades y  TD y pegarlas al nuevo Resultado del Script.
+
+	7. En archivo Resultado Filtro de Fecha por: Antes del periodo de descarga | Posterior a Periodo de descarga. Validar - no está en la base inicial
+
+	8. Actualizar Tabla Dinamina copiada con Informacion de Hoja Inventario archivo Resultado Actual
+
+	9. Responder Correo lleida
+	
+

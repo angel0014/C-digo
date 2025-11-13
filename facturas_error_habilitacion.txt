@@ -1,0 +1,17 @@
+
+
+
+FS7128514
+FS6972713
+FS6965647
+FS7996800
+FS7988371
+FS7920402
+
+Error: 
+	Se objeta por habilitación sin embargo es por MVC.
+
+	Radicado Inicial=> CMVIQ034000001319811
+
+	Se relaciona codigo de glosa 999 que corresponde glosa de ratificación.
+

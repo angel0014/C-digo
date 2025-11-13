@@ -1,0 +1,17 @@
+Buen Día equipo de Soporte,
+
+Al interior de la vicepresidencia financiera se viene desarrollando un proyecto de Gestor Documental en SharePoint junto con el proveedor de IKM. En este momento esta pendiente la conexión del SharePoint con nuestro repositorio de Azure. 
+
+De acuerdo a lo anterior, requerimos su valiosa colaboración en los siguientes puntos: 
+
+1. Otorgar permisos de "Lector de datos de Storage Blob" al Grupo de Recursos de Azure: SM.SGD-IS- indemnizaciones de salud
+
+2. Suministrar la siguiente información para que el proveedor IKM pueda construir una URL que permita la conexión del SharePoint al Azure:
+
+ID_SUSCRIPCION_AZURENOMBRE_GRUPO_RECURSOSNOMBRE_CUENTA_DE_ALMACENAMIENTONOMBRE_CONTENEDOR
+
+Por favor asignar este requerimiento con Melany Contreras Pérez quién conoce del caso. Gracias.
+
+Cordialmente,
+
+Angello Perilla Ampudia

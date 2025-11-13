@@ -1,0 +1,49 @@
+==================================
+PROCESO CREACION EJECUTABLE PYTHON
+==================================
+
+## Preparativos Iniciales ##
+
+1. Abrir la Consola de Comandos (CMD):
+   - Utiliza la búsqueda de Windows para encontrar y abrir CMD.
+
+2. Verificar Instalación de Python:
+   - Escribe 'python --version' en la consola para asegurarte de que tienes la versión 3.11.5 instalada.
+
+3. Verificar Instalación de Virtualenv:
+   - Comprueba si 'virtualenv' está instalado con 'virtualenv --version'. Si no lo está, instálalo usando 'pip install virtualenv'.
+   - virtualenv 20.26.2
+
+## Configuración del Proyecto ##
+
+4. Navegar a la Carpeta del Proyecto:
+   - Usa el comando 'cd C:\ruta\proyecto' para dirigirte a la carpeta donde se encuentra tu proyecto.
+
+5. Crear un Entorno Virtual:
+   - Ejecuta 'virtualenv env' para crear un entorno virtual llamado 'env'.
+   - Python -m venv env
+6. Activar el Entorno Virtual:
+   - Activa el entorno con '.\env\Scripts\activate'.
+
+## Instalación de Dependencias ##
+
+7. Instalar Dependencias:
+   - Instala las librerías necesarias con 'pip install -r requirements.txt' si tienes un archivo de requerimientos, o con 'pip install nombre_paquete' para instalar paquetes individuales.
+
+## Pruebas del Script ##
+
+8. Ejecutar el Script:
+   - Ejecuta tu script con 'python envioMasivoExtractosApp.py' para asegurarte de que funciona correctamente dentro del entorno virtual.
+
+9. Validar el Funcionamiento del Script:
+   - Realiza todas las pruebas necesarias para confirmar que el script ejecuta todas sus funciones adecuadamente.
+
+## Creación del Ejecutable
+
+10. Generar el Ejecutable con PyInstaller:
+    - Utiliza el comando 'pyinstaller --onefile --windowed gestorImagenesAzureAppV3.py' para crear un archivo ejecutable.
+
+11. Validar el Funcionamiento del Ejecutable:
+    - Prueba el archivo ejecutable generado para asegurar que funciona correctamente en distintos sistemas o configuraciones.
+
+Recuerda desactivar el entorno virtual con 'deactivate' al finalizar.

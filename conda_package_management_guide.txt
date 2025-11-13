@@ -1,0 +1,34 @@
+# Guía de Gestión de Paquetes en Conda
+
+## Crear un archivo de requisitos (requirements.txt)
+- Lista los paquetes que deseas instalar, uno por línea.
+- Opcionalmente, especifica la versión con '==' seguido del número de versión.
+
+Ejemplo:
+```
+numpy
+scipy
+matplotlib
+pandas==1.2.0
+```
+
+## Instalar paquetes desde un archivo de requisitos
+1. Abre la consola de comandos de Anaconda.
+2. Activa tu entorno con `conda activate tu_entorno`.
+3. Navega al directorio donde está tu archivo `requirements.txt`.
+4. Ejecuta `conda install --file requirements.txt` para instalar los paquetes.
+
+## Verificar la instalación de los paquetes
+- Usa el comando `conda list` para ver los paquetes instalados en el entorno activo.
+
+## Instalar una versión específica de un paquete
+- Ejecuta `conda install nombre_del_paquete==versión`.
+
+## Actualizar un paquete
+- Ejecuta `conda update nombre_del_paquete`.
+
+## Desinstalar un paquete
+- Ejecuta `conda remove nombre_del_paquete`.
+
+## Crear tu propio archivo requirements.txt a partir de un entorno existente
+- Ejecuta `conda list --export > requirements.txt`.

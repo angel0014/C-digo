@@ -1,0 +1,22 @@
+##########################
+####### POWER APPS #######
+##########################
+
+
+On Select => Vista Edición
+Icono => Lapiz
+
+EditForm(FormularioProveedores);;Navigate(EditScreen1; ScreenTransition.None)
+
+
+====================================================================================================================================
+
+
+On Select => Vista Edición
+Icono => Eliminar
+Remove([@Proveedores]; BrowseGallery1.Selected);; If (IsEmpty(Errors([@Proveedores]; BrowseGallery1.Selected)); Back())
+
+
+Filter => Vista Gallery
+Items
+SortByColumns(Filter([@Proveedores]; StartsWith(Título; TextSearchBox1.Text)); "Title"; If(SortDescending1; SortOrder.Descending; SortOrder.Ascending))

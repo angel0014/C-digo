@@ -1,0 +1,49 @@
+
+=================================
+ ## Actualización Fuera Términos
+=================================
+
+"""
+ Revisar donde están los radicados Fuera de Términos
+
+"""
+
+Insumo: Reporte Control Bloqueos y Pendientes (Valentina)
+
+
+1. Del "Reporte" solo trabajar con los radicados con los "Fuera Términos" .
+
+2. Agregar las columnas: ESTADO HR, OBSERVACION y AUDITOR
+
+3. Cruzar Radicado VS HR => Traer Columna 39
+
+4. Filtrar del cruce con HR: COMUNICACIONES, LIQUIDACIONES Y ERROR => ESTADO CERRADO
+
+5. Cruzar VS SISE
+
+6. Hoja Ruta > Administracion > Administracion SASS Copiar Info VS Reporte por Radicado
+
+7. Cruzar VS Asignacion SOAT traer auditores
+
+
+
+Herramientas de IA ? Tecnologías / Soluciones que puedan ser implementadas. 
+
+Linea Interna => Power APPS
+
+Linea Externa => Modelos de Azure (Optimizar Procesos) Nube. Casos de Uso para Seguros 
+
+Experiencia (Indemnizaciones / Fraude)
+
+Taller Cocreación / Soluciones ( Base de Casos de Exito Fraude Indemizaciones )
+
+2 partes: Alineacion de Conceptos (Conceptual) Comercial de Microsoft (2 horas)
+	Lineas de IA. Definir dos o tres procesos que pueden ser aplicados IA
+	
+	Estado Actual - Fortalezas - Deseo Objetivo 
+
+	Profesionales de Microsoft 
+
+	Opciones de Agenda / Primer Taller de Conceptualización Con el equipo de Microsoft (2 Horas ) 
+	
+	

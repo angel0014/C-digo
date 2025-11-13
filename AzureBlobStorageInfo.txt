@@ -1,0 +1,22 @@
+
+Contenedores y Blobs en Azure Blob Storage
+
+En Azure Blob Storage, la estructura para almacenar datos está organizada en contenedores y blobs. Un contenedor es el equivalente a una carpeta de nivel 
+superior en un sistema de archivos tradicional y sirve como el principal agrupamiento para los blobs, que son los archivos almacenados dentro de estos contenedores.
+
+Contenedor
+En la estructura específica que nos proporcionaste, << datos/datos/iq/2021/archivo.tif >>, el término "datos" al inicio indica el nombre del contenedor. 
+Este contenedor es crucial para la organización y gestión eficiente de los blobs que almacena.
+
+Blob
+Todo lo que sigue después del nombre del contenedor en la ruta, es decir, datos/iq/2021/archivo.tif, constituye el nombre del blob. 
+Este nombre puede incluir barras "/", las cuales no indican una estructura de carpetas físicas, sino que son parte del nombre del blob y 
+ayudan a simular una estructura de carpetas para facilitar la organización visual y el acceso.
+
+Estructura Detallada:
+- Contenedor: datos
+- Blob: datos/iq/2021/archivo.tif
+
+La aparente estructura de directorios en los nombres de los blobs permite operaciones como listar blobs bajo un prefijo específico, 
+lo que simula la navegación por directorios y subdirectorios dentro de Azure Blob Storage, aunque físicamente todos los blobs simplemente 
+residen dentro de los contenedores sin una jerarquía de carpetas real.

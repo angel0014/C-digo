@@ -1,0 +1,73 @@
+Proceso Asignación
+
+:::::::::::::::::::::::::::
+ Actualización Asignación
+:::::::::::::::::::::::::::
+
+1) INSUMOS:
+
+1) SharePoint
+
+- SharePoint Coordinación Linea Internas
+
+1. Asignacion Soat => Ajustes
+2. Detalle Asignacion => Compartir por Correo
+
+--------------------------------------
+
+- SharePoint Bases Consulta Internalizacion (Factura Electronica)
+
+1. INSUMO más reciente. NO contiene CONSOLIDADO
+
+--------------------------------------
+
+- SharePoint Registro Novedades (Incapacidades)
+
+1. Sí Aplica (Dia Cumpleaños, Vacaciones, Calamidad domestica)=> Revisar el <<Sí>>
+
+---------------------------------------
+
+2) SISE:
+
+Aperturas de Siniestros
+- Radicación
+- Estados Marcados con Check 
+
+01/05/2025 - Hoy: 23/07/2025
+Generar HR en Componentes
+
+========================================================================
+
+1) ACTUALIZAR INSUMOS:
+
+- HR con SISE OK Mayo al 25/07/2025 >>> OK
+
+- FE con información del SharePoint Bases Consultas >>> OK
+
+- MetasModulos: Tener en cuenta Modulo y rol >>> OK
+
+	
+
+- Radicados a Excluir: Actualizar Radicados Excluidos >>> OK
+
+- Radicados Pendientes MS Todos Los Dias Iq Envia Archivo (Revisar Peso 7 AM) Diana Cardenas. Regla
+
+- Registro Novedades: Afectación Productividad validad Sí >>> OK
+
+============================================================================
+
+2) ASIGNACION:
+
+En Carpeta Asignación:
+
+- Abrir Archivos
+
+ 1. AsignacionExportacion: Salida del Codigo en .parquet
+
+ 2. AsignaciónAnterior: Borrar Todo y pegar Info Exportacion
+
+
+3) Ejecución Script
+- Correr hasta la linea 718 AsignacionAutomatica
+
+ArchivoAsignación => Copiar información en 

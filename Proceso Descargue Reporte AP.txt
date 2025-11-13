@@ -1,0 +1,93 @@
+Proceso Descargue Reporte AP
+
+
+1) ***Producción por Emisión***
+COMPAÑÍA MUNDIAL DE SEGUROS S.A.		
+Emision Por Sucursal *** 01/07/2025 - 31/07/2025 ***		
+NRO_CERTIFICADO	NRO_CERT_ANTERIOR	COD SUCURSAL	SUCURSAL	COD PUNTO	PUNTO VENTA	COD RAMO	PRODUCTO	N. POLIZA	NRO_ENDOSO	NRO_FORM	TI	TOMADOR	TIPO_DOC	DOCUMENTO	CONTRATANTE	F. INICIO	F. TERMINO	F. EMISION	SUMA ASEGURADA	PRIMA	GASTOS	I.V.A	TOTAL DOC	CLAVE INTERMEDIARIO	NOMBRE INTERMEDIARIO	COMISION	IVA/COMISION	TPROD	AAAA_Emision	MM_Emision	Modo_Expedicion	PDM	Nro_Radicado_COM	Gestor	Giro_Negocio	Cod_Tipo_Poliza	Descripcion_poliza	Codigo_Ccosto	Nombre_Ccosto	Amparo_SERIEDAD	Usuario	imp_recargo	PrimaCoas	ArticuloJud	Neg_Estructurado	Cod_Asegurado	Nom_Asegurado	Cod_Beneficiario	Nom_Beneficiario	Nom_Inquilino	Nit_Inquilino	Contrato_Mundial	Correlativa_Cump	SUMA_EXP_ARRIENDO	TIPO_DE_NEGOCIO	TASA RUNT	txt_factura	Modalidad_Aseguramiento
+
+
+Actualización en Septiembre (Primera Semana)*** 2 y 3 Septiembre para Actualización
+
+SISE:
+> Listados Generales
+	> Producción Sucursal Detalle
+	> SUCURSAL: TODAS
+	> RAMO: ACCIDENTES PERSONALES
+	> Emisión
+	> Fecha: Desde 01/08/2025 - 31/08/2025
+	
+ACTUALIZAR: (COPIAR A)
+> PRIMAS EMITIDAS AP CONSOLIDADO
+
+
+2) ***Producción por Retención***
+PRODUCCION CON DISTRIBUCION DE REASEGURADO DETALLADO '01/07/2025' - '31/07/2025'				Codigo Sucursal	Sucursal	Codigo Ramo	Ramo Comercial	Ramo Técnico	Moneda	TI	F. Inicio	F. Termino	Giro_Negocio	Descripcion_poliza	Póliza	Endoso	Contrato	Fecha Emisión	Asegurado	Suma Distribuida	Suma Retenida	Suma Cedida	Prima Distribuida	Prima Retenida	Prima Cedida	Prima Distribuida eq	Suma Distribuida eq
+															
+
+SISE:
+> Siniestros
+	> Reaseguro
+	> Reporte Reaseguro Diario
+	> Primas (Menú)
+		> Validación Consistencia de Datos
+		> Reporte Fecha Emisión (Seleccionar)
+		> Todas Sucursales (TODAS) Opción
+		> ACCIDENTES PERSONALES (Ramo) Opción
+		> Fecha: Desde 01/08/2025 - 31/08/2025
+		> Distribución Prod por Detalle (Seleccionar)
+		> Enviar a Excel (Check) y Listar
+
+
+3) ***Reservas y Pagos*** 
+REPORTE RESERVAS Y PAGOS							
+INDEMNIZACION							
+SUCURSAL:TODAS							
+RAMO:ACCIDENTES PERSONALES							
+Fecha Inicial:01/07/2025      Fecha Final:31/07/2025							
+
+SISE:
+> Reportes
+	> Reportes de Siniestro
+	> Listado Varios (Menú)
+		> Reporte de Reservas y Pagos
+		> Todas Sucursales (TODAS) Opción
+		> ACCIDENTES PERSONALES (Ramo) Opción
+		> Fecha: Desde 01/08/2025 - 31/08/2025
+		> Indemnización (Check) y Listar
+
+ACTUALIZAR: (COPIAR A)
+> RESERVAS Y PAGOS AP CONSOLIDADO 2025
+
+
+4) ***Reservas y Pagos IBRN*** OK
+REPORTE RESERVAS Y PAGOS IBRN							
+INDEMNIZACION-RECOBRO							
+SUCURSAL:TODAS							
+RAMO:ACCIDENTES PERSONALES							
+Fecha Inicial:01/07/2025      Fecha Final:31/07/2025							
+
+SISE:
+> Reportes
+	> Reportes de Siniestro
+	> Listado Varios (Menú)
+		> Reporte de Reservas y Pagos IBRN
+		> Todas Sucursales (TODAS) Opción
+		> ACCIDENTES PERSONALES (Ramo) Opción
+		> Fecha: Desde 01/08/2025 - 31/08/2025
+		> Indemnización (Check)
+		> Recobros (Check) y Listar
+
+ACTUALIZAR: (COPIAR A)
+> 2025
+> RESERVAS Y PAGOS IBRN CONSOLIDADO 2025
+
+
+
+COMPARTIDA
+---------------------------------------------
+2025
+PRIMAS EMITIDAS CONSOLIDADO 
+Copiar de SISE a CONSOLIDADO
+
+
